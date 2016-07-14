@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 2px solid #3B99EF;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #3B99EF;
+  border-bottom: 3px solid #2F7DC5;
+  color: #FFF;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #3FD517;
+  border-color: #3FD517;
+  border-bottom-color: #32AC13;
+}
+
+.button:active {
+  color: #1D1E1D;
+}
+
+.button-sm {
+  font-size: .5em;
+}
+
+.button-md {
+  font-size: 1.2em;
+  padding: 10px 10px;
+}
+
+.button-lg {
+  font-size: 2em;
+  padding: 15px 15px;
+}
