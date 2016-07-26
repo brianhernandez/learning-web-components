@@ -1,0 +1,123 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 1rem;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Helvetica Neue', sans-serif;
+	/*font-weight: 700;*/
+	color: #888888;
+	background-image: linear-gradient(
+		#F0F0F0,
+		#FEFEFE);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.calc_container {
+	margin: 5em auto 0;
+	padding: 20px;
+	max-width: 400px;
+	background-image: linear-gradient(
+		#9AD2E8,
+		#87CFE9);
+	border-radius: 3px;
+	border-spacing: 8px 8px;
+	box-shadow: 0 4px 0 0 #009EDF;
+}
+
+td {
+	/*margin: 10px;*/
+}
+
+.button,
+#display {
+	display: table-cell;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	color: #888888;
+	font-size: .8rem;
+	outline: none;
+	transition: background-color .5s ease;
+}
+
+#display {
+	/*width: 100%;*/
+	/*-webkit-appearance: none;*/
+	/*-moz-appearance: none;*/
+	height: 100%;
+	font-size: 1rem;
+	padding: 0px 5px;
+	background-color: #79A7B9;
+	box-shadow: inset 0 4px 0 #628795;
+	color: #fff;
+	direction: rtl;
+}
+#display:hover,
+#display:focus {
+	background-color: #85B7CD;
+}
+
+.button {
+	/*border-bottom: 4px solid;*/
+	/*-webkit-appearance: none;*/
+	font-weight: 700;
+	padding: 20px 30px;
+	background-color: #fff;
+	/*border-bottom-color: #75A7BA;*/
+	box-shadow: 0 4px 0 0 #75A7BA;
+}
+.button:hover,
+.button:focus {
+	background-color: #E3E3E3;
+}
+
+.sign {
+	background-color: #EEE2E7;
+}
+.sign:hover,
+.sign:focus {
+	background-color: #CFC3CA;
+}
+
+#clear {
+	background-color: #FF9EA8;
+	/*border-bottom-color: #FF7B88;*/
+	box-shadow: 0 4px 0 0 #FF7B88;
+	color: #fff;
+}
+#clear:hover,
+#clear:focus {
+	background-color: #F597A4;
+}
+
+#del {
+	background-color: #FFC472;
+	box-shadow: 0 4px 0 0 #C99C5C;
+}
+#del:hover,
+#del:focus {
+	background-color: #ECB96E;
+}
+
+#equal {
+	background-color: #EFFE9F;
+	box-shadow: 0 4px 0 0 #9CA85E;
+}
+#equal:hover,
+#equal:focus {
+	background-color: #D3E393;
+}
